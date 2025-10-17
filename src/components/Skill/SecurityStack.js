@@ -15,58 +15,55 @@ import { TbActivityHeartbeat, TbKey } from "react-icons/tb";
 function SecurityStack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
         <SiOpenaccess />
         <p style={{ fontSize: "0.4em" }}>OWASP</p>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
         <TbKey />
         <p style={{ fontSize: "0.4em" }}>Encryption</p>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
         <SiDatadog />
         <p style={{ fontSize: "0.4em" }}>Secure Logging</p>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
         <FaKey />
         <p style={{ fontSize: "0.4em" }}>Clerk</p>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
         <FaUserLock />
         <p style={{ fontSize: "0.4em" }}>Authentication</p>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
         <FaUserShield />
         <p style={{ fontSize: "0.4em" }}>Authorization</p>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
         <SiCloudflare />
         <p style={{ fontSize: "0.4em" }}>Cloudflare Security</p>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-              <SiJsonwebtokens />
-              <p style={{ fontSize: "0.4em" }}>JWT</p>
-            </Col>
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
+        <SiJsonwebtokens />
+        <p style={{ fontSize: "0.4em" }}>JWT</p>
+      </Col>
 
- <Col xs={4} md={2} className="tech-icons">
-              <FaLock />
-              <p style={{ fontSize: "0.4em" }}>TLS Setup</p>
-            </Col>
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
+        <FaLock />
+        <p style={{ fontSize: "0.4em" }}>TLS Setup</p>
+      </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={5} sm={5} md={3} lg={3} xl={2} className="tech-icons">
         <TbActivityHeartbeat />
         <p style={{ fontSize: "0.4em" }}>Rate Limiting</p>
       </Col>
-
-
-
     </Row>
   );
 }
